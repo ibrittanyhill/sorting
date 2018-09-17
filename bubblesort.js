@@ -1,8 +1,6 @@
 function swap(i, j) {
 
-    // let temp = i;
-    // i = j;
-    // j = temp;
+
     [i, j] = [j, i]
     return [i, j]
 }
@@ -27,12 +25,3 @@ function bubbleSort(array) {
     }
     return array;
 }
-
-console.log(bubbleSort([5,6,3,2,1]))
-let myArr = [2,1]
-let a = 1
-let b = 2
-swap(a, b)
-console.log(a)
-
-console.log(b)
