@@ -10,7 +10,10 @@ describe('Split Array function', function () {
 
 describe('Merge function', function () {
     it('is able to merge two sorted arrays into one sorted array', function () {
-       
+       expect(merge([2],[1])).toEqual([1,2])
+       expect(merge([1,2],[3,4])).toEqual([1,2,3,4])
+       expect(merge([27,38],[3,43])).toEqual([3,27,38,43])
+       expect(merge([3,27,38,43],[9,10,82])).toEqual([3,9,10,27,38,43,82])
     });
 });
 
